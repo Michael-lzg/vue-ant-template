@@ -3,13 +3,35 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
-  state: {
+const state = {
+  tagList: [],
+  breadcrumbList: []
+}
+const getters = {
+  tagList (state) {
+    return state.tagList
   },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
+  breadcrumbList (state) {
+    return state.breadcrumbList
   }
+}
+const mutations = {
+  updateTagList (state, payload) {
+    state.tagList = payload
+  },
+  updateBreadcrumbList (state, payload) {
+    state.breadcrumbList = payload
+  }
+}
+const actions = {
+
+}
+
+const store = new Vuex.Store({
+  state,
+  mutations,
+  getters,
+  actions
 })
+
+export default store

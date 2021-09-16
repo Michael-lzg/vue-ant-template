@@ -1,0 +1,104 @@
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  background-color: #fff !important;
+  color: black;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto !important;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  color: #1890ff !important;
+}
+
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+::-webkit-input-placeholder {
+  color: #878d99;
+}
+
+:-moz-placeholder {
+  color: #878d99;
+}
+
+::-moz-placeholder {
+  color: #878d99;
+}
+
+:-ms-input-placeholder {
+  color: #878d99;
+}
+
+
+.mainPage {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 剩余滚动条样式 */
+
+::-webkit-scrollbar-track-piece {
+  width: 2px;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(36, 38, 44, 0.6);
+  z-index: 10000;
+}
+
+.tips {
+  margin: 15px 0;
+}
+
+.ant-layout-content>div {
+  padding: 24px;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.ant-btn-sm {
+  font-size: 12px !important;
+}
