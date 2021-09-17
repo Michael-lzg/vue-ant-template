@@ -23,7 +23,7 @@
               <a href="https://juejin.cn/user/2330620381629070" target="_blank">掘金文章</a>
             </a-menu-item>
             <a-menu-item>
-              <a href="javascript:;">退出登录</a>
+              <a href="javascript:;" @click="lougOut">退出登录</a>
             </a-menu-item>
           </a-menu>
         </a-dropdown>
@@ -46,6 +46,10 @@ export default {
   methods: {
     trigger () {
       this.$emit('trigger')
+    },
+    lougOut () {
+      sessionStorage.removeItem('isLogin')
+      this.$router.replace('/')
     }
   }
 }

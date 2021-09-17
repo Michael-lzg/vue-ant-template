@@ -53,12 +53,9 @@ export default {
 
 <style lang="less">
 .menu {
-  // width: 200px;
   height: 100%;
-  // height: calc(100% - 32px);
   overflow-y: auto;
   padding-bottom: 32px;
-  // background-color: rgb(45, 58, 75);
   position: relative;
 }
 .menu::-webkit-scrollbar {
@@ -76,7 +73,6 @@ export default {
 .ant-menu-inline,
 .ant-menu-sub,
 .ant-menu-dark .ant-menu-inline.ant-menu-sub {
-  // background-color: rgb(45, 58, 75) !important;
   box-shadow: none !important;
 }
 </style>

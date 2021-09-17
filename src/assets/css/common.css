@@ -36,38 +36,10 @@ body {
   visibility: hidden;
 }
 
-.c1 {
-  color: #1890ff !important;
-}
-
-
 .ellipsis {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-}
-
-::-webkit-input-placeholder {
-  color: #878d99;
-}
-
-:-moz-placeholder {
-  color: #878d99;
-}
-
-::-moz-placeholder {
-  color: #878d99;
-}
-
-:-ms-input-placeholder {
-  color: #878d99;
-}
-
-
-.mainPage {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 }
 
 /* 剩余滚动条样式 */
@@ -87,18 +59,10 @@ body {
   z-index: 10000;
 }
 
-.tips {
-  margin: 15px 0;
-}
-
 .ant-layout-content>div {
   padding: 24px;
   background-color: #fff;
   width: 100%;
   height: 100%;
   overflow: auto;
-}
-
-.ant-btn-sm {
-  font-size: 12px !important;
 }

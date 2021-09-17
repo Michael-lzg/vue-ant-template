@@ -78,6 +78,8 @@ export default {
 
 <style scoped lang="less">
 .mainpage {
+  width: 100%;
+  height: 100%;
   overflow: auto;
   background-color: #f6f6f6;
   padding: 0 !important;
